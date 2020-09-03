@@ -1,0 +1,17 @@
+<!--LWC which use the base component lightning-record-view-form built on Lightning Data service-->
+<template>
+    <lightning-card title="Lightning Data Service - Record View Form" icon-name="standard:Contact">
+        <div class="slds-p-around_small">
+            <lightning-record-view-form
+                record-id={recordId} 
+                object-api-name="User"> 
+                <lightning-output-field field-name = "Name"></lightning-output-field>
+                <lightning-output-field field-name="Alias"></lightning-output-field>
+                <lightning-output-field field-name="Email"></lightning-output-field>
+
+            </lightning-record-view-form>
+
+        </div>
+    </lightning-card>
+
+</template>

@@ -1,0 +1,16 @@
+<!--LWC which use the base component built on Lightning Data service-->
+<template>
+    <lightning-card title = "Lightning Data Service - Record Form" icon-name = "standard:account">
+        <div class = "slds-p-around_small">
+                <lightning-record-form
+                    record-id = {recordId}
+                    object-api-name = {objectApiName}
+                    layout-type="Full"
+                    mode = "readOnly">
+                
+                </lightning-record-form>       
+
+        </div>
+    </lightning-card>
+     
+</template>
